@@ -86,16 +86,16 @@ install(DIRECTORY include/arlib DESTINATION include
 # ==-----------------------------------------------------------------------== #
 #                                Unit Tests
 # ==-----------------------------------------------------------------------== #
-add_subdirectory(test)
-enable_testing(true)
-add_test(NAME tests COMMAND tests)
+#add_subdirectory(test)
+#enable_testing(true)
+#add_test(NAME tests COMMAND tests)
 
 # ==-----------------------------------------------------------------------== #
 #                                   Other
 # ==-----------------------------------------------------------------------== #
 
 # Documentation
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/doc")
+#add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/doc")
 
 # Examples
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/examples")
+#add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/examples")
